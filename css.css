@@ -1,0 +1,52 @@
+h1 {color:purple;font-size: 60px; text-align: center;}
+body {background-color: rgb(236, 212, 235);
+text-align: center;}
+ul.menu { text-align: center;}
+    ul.menu li {display: inline;}
+    ul.menu li a {
+        text-decoration: none;
+        padding: .2em 1em;
+        color: #1B1B1B;
+        background-color: #E2E2E2;
+    }
+    ul.menu li a:hover
+{
+background-color: #999;
+}
+
+h2 {color: blueviolet; 
+    text-align: center;
+    font-size: 25px;}
+
+p {font-size: 20px; 
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+p a {
+    color: rgb(156, 65, 167);
+    text-decoration: none;
+}
+
+ol.products {
+    list-style: inside;
+    text-align:center;
+    
+}
+ol.products li {
+    list-style-type:decimal;
+    color: darkblue;
+    font-size: 25px;
+}
+
+footer a { 
+    display: inline-block;
+    padding: .2em 1em;
+    text-decoration: none;
+    color: rgb(165, 68, 92);
+    background-color: rgb(224, 186, 186);
+    font-size: 30;
+}
+footer a:hover {
+    color: deeppink;
+}
